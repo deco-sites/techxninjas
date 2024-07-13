@@ -77,9 +77,9 @@
   },
   "/.deco/blocks/pages-home-5afd25174424.json": {
     "name": "Home",
-    "path": "/",
     "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
+    "__resolveType": "website/pages/Page.tsx",
+    "path": "/"
   },
   "/.deco/blocks/site.json": {
     "blockType": "apps",

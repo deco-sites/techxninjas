@@ -1,42 +1,345 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Header"
+  "name": "Home",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header.tsx",
+      "navigation": {
+        "links": [
+          {
+            "label": "Home",
+            "url": "https://techxninjas.deco.site/"
+          },
+          {
+            "label": "About"
+          },
+          {
+            "label": "Services"
+          },
+          {
+            "label": "Testimonials"
+          },
+          {
+            "label": "Blog"
+          },
+          {
+            "label": "Contact"
+          },
+          {
+            "label": "Join Us"
+          }
+        ],
+        "buttons": []
       },
-      {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/c203045e-8a50-417d-ba42-b699036675c5",
+        "alt": "TechXNinjas Logo"
       }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<h1>Empower Your Future!</h1>",
+      "cta": [
+        {
+          "href": "https://chat.whatsapp.com/EQuf0AequoL6ZCjmNa0AR0",
+          "text": "Join Us",
+          "id": "join_community"
+        }
+      ],
+      "description": "Join TechXNinjas, where we're dedicated to guiding you through every step of your academic journey. Whether you're preparing for hackathons, exploring student ambassador programs, contributing to open source projects, or developing essential technical and soft skills, our community offers personalized mentorship and career guidance. From helping you choose the right tech stack to hosting live webinars with industry experts, participating in weekly challenges, and providing daily internship updates, TechXNinjas is your partner in achieving academic excellence and preparing for a successful career. Connect with us on WhatsApp, LinkedIn, YouTube, and Instagram to stay informed and empowered throughout your graduation journey."
+    },
+    {
+      "__resolveType": "site/sections/Logos.tsx",
+      "logos": [
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/f4be59a2-c5e1-4036-8eae-46755079384d",
+          "altText": "logo"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/f4be59a2-c5e1-4036-8eae-46755079384d",
+          "altText": "logo"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/f4be59a2-c5e1-4036-8eae-46755079384d",
+          "altText": "logo"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/f4be59a2-c5e1-4036-8eae-46755079384d",
+          "altText": "logo"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/f4be59a2-c5e1-4036-8eae-46755079384d",
+          "altText": "logo"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/f4be59a2-c5e1-4036-8eae-46755079384d",
+          "altText": "logo"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/f4be59a2-c5e1-4036-8eae-46755079384d",
+          "altText": "logo"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/f4be59a2-c5e1-4036-8eae-46755079384d",
+          "altText": "logo"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/f4be59a2-c5e1-4036-8eae-46755079384d",
+          "altText": "logo"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/f4be59a2-c5e1-4036-8eae-46755079384d",
+          "altText": "logo"
+        }
+      ],
+      "title": "Join Us"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "description": "𝐎𝐩𝐩𝐨𝐫𝐭𝐮𝐧𝐢𝐭𝐢𝐞𝐬: We provide information about upcoming hackathons from major platforms like Google, Microsoft, Amazon, Flipkart, and GeeksforGeeks.\n𝐏𝐫𝐞𝐩𝐚𝐫𝐚𝐭𝐢𝐨𝐧: Access resources and tutorials to help you prepare for hackathons, including past challenges and solution discussions.\n𝐏𝐚𝐫𝐭𝐢𝐜𝐢𝐩𝐚𝐭𝐢𝐨𝐧: Learn strategies for effective team formation, project planning, and execution to maximize your success in hackathons.",
+      "tagline": "PART I",
+      "disableSpacing": {
+        "top": false,
+        "bottom": true
+      },
+      "cta": [
+        {
+          "style": "Outline",
+          "text": "Join Us for Hackathons",
+          "href": "https://chat.whatsapp.com/EQuf0AequoL6ZCjmNa0AR0",
+          "id": "techxninjasWA"
+        }
+      ],
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/2f42c692-1b52-41be-8637-d1146a994b04",
+      "title": "Comprehensive Hackathon Guidance"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Student Ambassador Programs",
+      "description": "𝐄𝐱𝐩𝐨𝐬𝐮𝐫𝐞: Get insights into student ambassador programs like Google Developer Student Clubs (GDSC) and Microsoft Learn Student Ambassador Program (MLSA).\n𝐀𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐒𝐮𝐩𝐩𝐨𝐫𝐭: Receive guidance on how to apply and stand out in these competitive programs.",
+      "tagline": "PART II",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/19d4a242-7740-4e0d-bd0d-a9c93bc3cf0f",
+      "cta": [
+        {
+          "style": "Outline",
+          "href": "https://chat.whatsapp.com/ExiqmVn4SHP71pdB5VLDs4",
+          "text": "Become MLSA (Jul-Sep)",
+          "id": "techxninjasWAMLSA"
+        }
+      ],
+      "placement": "right"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Weekly Challenges and Leaderboards",
+      "description": "𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞𝐬: Test your skills with weekly coding challenges and problem-solving exercises.\n𝐑𝐞𝐜𝐨𝐠𝐧𝐢𝐭𝐢𝐨𝐧: Earn recognition by topping our leaderboards and win exciting rewards.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/601e5dfe-3273-45d6-bb0a-4a87aa1927e0",
+      "cta": [
+        {
+          "style": "Outline",
+          "text": "Join the Weekly Contest",
+          "href": "https://chat.whatsapp.com/G5r1wyUTbFjDrk60CowXNy",
+          "id": "techxninjasWC"
+        }
+      ],
+      "disableSpacing": {
+        "top": false,
+        "bottom": true
+      },
+      "tagline": "PART III"
+    },
+    {
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "title": "Explore Our Insights and Resources",
+      "description": "Dive into a wealth of knowledge with our curated blogs and articles. Explore insights on Open Source Contributions, Skill-Centric Guidance, Personalized Mentorship, Roadmap and Tech Stack Selection, Live Webinars and Workshops, and more. Stay informed, inspired, and equipped to navigate your academic and professional journey with confidence.",
+      "posts": [
+        {
+          "tags": [
+            "placement",
+            "microsoft",
+            "jobs"
+          ],
+          "title": "Placement Preparation",
+          "author": "Aadil Latif",
+          "excerpt": "Get ready for job interviews with common interview questions, mock interviews, and tips from industry professionals.",
+          "date": "10-July-2024",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/cf8f5d38-2071-406e-aaad-bbd387e39036"
+        },
+        {
+          "tags": [
+            "guidance",
+            "mentorship",
+            "projects"
+          ],
+          "title": "Project Guidance",
+          "author": "Abhishek Sharma",
+          "excerpt": "Acquire the skills needed to deploy projects to the cloud and other platforms, making them accessible to a wider audience.",
+          "date": "6-July-2024",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/6627d52a-0f7b-4f87-8a3e-40273f5f4077"
+        },
+        {
+          "tags": [
+            "webinars",
+            "workshops",
+            "data science"
+          ],
+          "title": "Live Webinars and Workshops",
+          "author": "Riya Kumari",
+          "excerpt": "Participate in live sessions with industry experts who share their knowledge and experiences.",
+          "date": "4-July-2024",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/f497817e-31e7-4bea-bdbe-35d9583c54dd"
+        },
+        {
+          "tags": [
+            "technology",
+            "ai",
+            "ml",
+            "security"
+          ],
+          "title": "Roadmap and Tech Stack Selection",
+          "author": "Ashish Kumar",
+          "excerpt": "Access detailed roadmaps tailored to different career paths in technology, such as software development, data science, and cybersecurity.",
+          "date": "27-June-2024",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/374782cf-26cf-47fe-bcd6-8b9cfcbd218d"
+        },
+        {
+          "tags": [
+            "skills",
+            "soft skills",
+            "ambassadors"
+          ],
+          "title": " Skill-Centric Guidance",
+          "author": "Abhishek Sharma",
+          "excerpt": "Learn essential programming languages, tools, and technologies that are in demand in the industry.",
+          "date": "26-June-2024",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/45274c68-669b-450b-b58c-434e2b60987a"
+        },
+        {
+          "tags": [
+            "open source",
+            "contributions",
+            "github"
+          ],
+          "title": "Open Source Contributions",
+          "author": "Aadil Latif",
+          "excerpt": "Understand the importance of contributing to open source projects and how it can enhance your skills and resume.",
+          "date": "22-June-2024",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/e41d3c06-8400-419c-b20e-6a3d8ee558ed"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "arrows": true,
+      "title": "What students have to say?",
+      "slides": [
+        {
+          "content": {
+            "description": "Thankyou TechXNinjas. It was really a great opportunity to be a part of the contest #1. Looking forward to the next Contest #2.  I highly recommend it to everyone to take part in this weekly contest which covers the basics of programming in a short time in a competitive environment.",
+            "alt": "kunal_pic",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/0cf02ba1-216f-4f95-bb3b-9b30e217206b",
+            "name": "Kunal Dhand",
+            "position": "3rd yr Student · Baba Banda Singh Bahadur Engineering College, Punjab"
+          }
+        },
+        {
+          "content": {
+            "description": "TechXNinjas has been a game-changer in my academic journey. The personalized mentorship helped me navigate through complex projects, and the regular updates on internships have kept me ahead of the curve. Highly recommended!",
+            "name": "Sanjna Chatani",
+            "position": "iMCA · GLS (Gujarat Law Society) University University",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/3af9205d-b6a5-4af7-977d-f89863b02a73",
+            "alt": "sanjna_pic"
+          }
+        },
+        {
+          "content": {
+            "name": "Tulika Bhatia",
+            "position": "BTech Computer Science Engineering · Bharati Vidyapeeth's College of Engineering",
+            "alt": "tulika_pic",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/4777eae2-480c-4be8-a167-97d41329c5fe",
+            "description": "The weekly challenges at TechXNinjas are both fun and educational. They’ve helped me improve my problem-solving skills and have been a great way to apply what I learn in a practical setting. The sense of community is amazing!"
+          }
+        },
+        {
+          "content": {
+            "description": "Joining TechXNinjas was the best decision I made. The live webinars and workshops have given me hands-on experience and exposure to industry experts. The skill-centric guidance has also been invaluable in enhancing my technical abilities.",
+            "position": "BTech, Information Technology · Veer Surendra Sai University Of Technology (VSSUT,Formerly UCE)",
+            "name": "Subhasis Sahoo",
+            "alt": "sahoo_pic",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/5867f491-b233-4ba2-938e-7feac03da8b8"
+          }
+        },
+        {
+          "content": {
+            "description": "As someone from a non-CS background, TechXNinjas has provided me with a roadmap to enter the tech field. The detailed guidance on tech stack selection and open source contributions has been incredibly helpful. I now feel more confident in my career transition.",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/395ee4e1-de20-4c44-a08e-f913d5ba0daa",
+            "alt": "abhi_pic",
+            "name": "Abhinav Mamidi",
+            "position": "BTech, Artificial Intelligence & Data Science · Vignan Institute of Technology and Science"
+          }
+        }
+      ],
+      "dots": true,
+      "interval": 10
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx",
+      "title": "FAQs",
+      "description": "Explore our FAQs to find answers to common queries about TechXNinjas and our services. Whether you're curious about our mentorship programs, hackathon opportunities, skill development resources, or internship support, we've compiled essential information to help you navigate your journey with us. If you have further questions, feel free to reach out to us directly for personalized assistance.",
+      "questions": [
+        {
+          "title": "Q1: What is TechXNinjas?",
+          "answer": "<p><strong>A:</strong> TechXNinjas is a community-based platform dedicated to guiding students through their graduation journey. We offer support in hackathons, mentorship, skill development, and career preparation.</p>"
+        },
+        {
+          "title": "Q2: How can I participate in hackathons through TechXNinjas?",
+          "answer": "<p><strong>A:</strong> We provide information on upcoming hackathons and offer resources to help you prepare. Join our community to stay updated and get guidance on forming teams and executing projects.</p>"
+        },
+        {
+          "answer": "<p><strong>A:</strong> We provide personalized mentorship on career paths, project development, and skill enhancement. Our mentors are industry professionals who offer guidance tailored to your goals.</p>",
+          "title": "Q3: What kind of mentorship does TechXNinjas offer?"
+        },
+        {
+          "title": "Q4: How can TechXNinjas help with skill development?",
+          "answer": "<p><strong>A:</strong> We offer workshops, live webinars, and coding challenges to help you develop both technical and soft skills. These activities are designed to enhance your employability and career prospects.</p>"
+        },
+        {
+          "title": "Q5: Can TechXNinjas help with internship and job placements?",
+          "answer": "<p><strong>A:</strong> Yes, we provide daily updates on internship opportunities and offer resources for placement preparation, including interview tips and practice sessions.</p>"
+        },
+        {
+          "title": "Q6: Is TechXNinjas suitable for students from non-technical backgrounds?",
+          "answer": "<p><strong>A:</strong> Absolutely! We provide guidance on tech stack selection, open source contributions, and skill development suitable for students from diverse academic backgrounds.</p>"
+        },
+        {
+          "title": "Q7: How can I stay updated with TechXNinjas' activities and resources?",
+          "answer": "<p><strong>A:</strong> Follow us on our social media platforms and join our WhatsApp community for daily updates, event notifications, and resource announcements.</p>"
+        },
+        {
+          "title": "Q8: Is there a cost to join TechXNinjas?",
+          "answer": "<p><strong>A:</strong> No, TechXNinjas is completely free to join. We believe in providing accessible support and resources to all students.</p>"
+        },
+        {
+          "title": "Q9: How can I contribute to TechXNinjas' community and resources?",
+          "answer": "<p><strong>A:</strong> We welcome contributions from students and professionals. Contact us to explore opportunities for content creation, mentorship, and collaboration.</p>"
+        },
+        {
+          "title": "Q10: How do I contact TechXNinjas for further inquiries?",
+          "answer": "<p><strong>A:</strong> You can reach out to us through our website's contact form or email us directly at <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:thetechxninjas@gmail.com\">thetechxninjas@gmail.com</a> . We're here to help!</p>"
+        }
+      ],
+      "cta": {
+        "outline": false,
+        "href": "https://chat.whatsapp.com/EQuf0AequoL6ZCjmNa0AR0",
+        "text": "Join Us"
+      }
+    },
+    {
+      "__resolveType": "Footer"
     }
-  }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "path": "/"
+}

@@ -1,1 +1,90 @@
-{"__resolveType":"site/sections/Footer.tsx","links":[],"bottomLinks":[],"social":[],"subscribe":{}}
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "links": [
+    {
+      "items": [
+        {
+          "label": "Community",
+          "href": "https://chat.whatsapp.com/EQuf0AequoL6ZCjmNa0AR0"
+        },
+        {
+          "label": "TechXNinjas Official",
+          "href": "https://chat.whatsapp.com/In33dE8xh893dQc6Bib63r"
+        },
+        {
+          "href": "https://chat.whatsapp.com/ExiqmVn4SHP71pdB5VLDs4",
+          "label": "Become MLSA (Jul-Sep)"
+        },
+        {
+          "label": "Weekly Contests",
+          "href": "https://chat.whatsapp.com/G5r1wyUTbFjDrk60CowXNy"
+        }
+      ],
+      "title": "Join Us"
+    },
+    {
+      "items": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/company/techxninjas/"
+        },
+        {
+          "label": "Instagram",
+          "href": "https://instagram.com/techxninjas"
+        },
+        {
+          "label": "YouTube",
+          "href": "https://www.youtube.com/@techxninjas"
+        },
+        {
+          "label": "X (Twitter)",
+          "href": "https://x.com/iaadillatif"
+        },
+        {
+          "label": "Connect with Aadil Latif",
+          "href": "https://www.linkedin.com/in/iaadillatif/"
+        }
+      ],
+      "title": "Social Media Handles"
+    }
+  ],
+  "bottomLinks": [
+    {
+      "label": "Founded by Aadil Latif",
+      "href": "https://www.linkedin.com/in/iaadillatif/"
+    }
+  ],
+  "social": [
+    {
+      "network": "Linkedin",
+      "href": "https://www.linkedin.com/company/techxninjas/"
+    },
+    {
+      "network": "Instagram",
+      "href": "https://instagram.com/techxninjas"
+    },
+    {
+      "network": "Youtube",
+      "href": "https://www.youtube.com/@techxninjas"
+    },
+    {
+      "network": "X - Twitter",
+      "href": "https://x.com/techxninjas"
+    }
+  ],
+  "subscribe": {
+    "title": "Join Us",
+    "instructions": "<p>Stay informed and connected! Subscribe to our newsletter or join our community for the latest updates on hackathons, workshops, internship opportunities, and more. Don't miss out on valuable resources and networking opportunities to advance your career journey.</p>",
+    "description": " "
+  },
+  "logo": {
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/b8ab1ce9-0edd-4192-a30c-e9db123af4d6",
+    "alt": "techxninjas_logo"
+  },
+  "madeWith": {
+    "label": "TechXNinjas",
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/b8ab1ce9-0edd-4192-a30c-e9db123af4d6",
+    "href": "https://www.linkedin.com/company/techxninjas/"
+  },
+  "copyright": "© 2024 TechXNinjas. All rights reserved."
+}
