@@ -1,14 +1,14 @@
 {
   "seo": {
     "type": "website",
-    "title": "Landing",
+    "title": "TechXNinjas",
     "jsonLDs": [],
     "noIndexing": false,
-    "description": "Improve your page performance with deco.cx",
-    "titleTemplate": "Landing | deco.cx",
+    "description": "Discover the pulse of innovation with TechXNinjas, a dynamic platform founded by Aadil Latif. We curate cutting-edge insights on open-source mastery, skill empowerment, and career navigation. Join us at the forefront of tech excellence and redefine your journey with expert guidance and visionary perspectives.",
+    "titleTemplate": "TechXNinjas Community",
     "descriptionTemplate": "%s | Deco.cx",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/0fba8a8c-ee79-47e1-8f9d-863658d056cc",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/1350f37f-88ab-4cf1-bcf6-c386bcf8b238"
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11641/78d87a0b-1b79-4095-af4c-033e26ccc20d"
   },
   "global": [
     {
